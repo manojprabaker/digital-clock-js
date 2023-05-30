@@ -1,0 +1,54 @@
+* {
+	padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+	
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.date {
+  border-bottom: 1px solid;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.time {
+  border-bottom: 1px solid;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.date-before {
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-around;
+}
+.time-before {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid;
+}
+.main-time {
+  box-shadow: 2px 3px 18px #bba9a9;
+  border: 1px solid;
+}
+
+div#morn-aftn {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.title{
+  text-align: center;
+}
