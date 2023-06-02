@@ -2,6 +2,7 @@
 function currTime() {
   let d = new Date();
   
+
 let dd=d.getDate();
   let dm=d.getMonth();
   dm=dm +1;
