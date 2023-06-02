@@ -1,5 +1,4 @@
 
-
 function currTime() {
   let d = new Date();
   
